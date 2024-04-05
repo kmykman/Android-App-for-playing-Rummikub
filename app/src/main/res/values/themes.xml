@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Rummikub" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/light_blue</item>
+        <item name="colorPrimaryDark">@color/orange</item>
+        <item name="android:navigationBarColor">#FFF5C9</item>
+    </style>
+
+    <style name="Theme.Rummikub" parent="Base.Theme.Rummikub" />
+</resources>

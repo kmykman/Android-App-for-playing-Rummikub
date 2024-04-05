@@ -1,0 +1,9 @@
+# C/C++ build system timings
+generate_cxx_metadata 27ms
+
+<<<<<<< HEAD
+=======
+# C/C++ build system timings
+generate_cxx_metadata 16ms
+
+>>>>>>> 56a3008 (fix bug)

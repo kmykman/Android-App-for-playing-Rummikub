@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">libgoBLE</string>
+    <string name="button_stop_label">stop</string>
+    <string name="button_scan_label">scan</string>
+    <string name="msg_bt_adaptor_denied">Error, accessing bluetooth host adaptor denied!</string>
+    <string name="msg_bt_not_found">Error, Bluetooth device not found!</string>
+    <string name="msg_bt_classic_fail_sending">Error, BT classic sending packet failed!</string>
+    <string name="msg_no_host_adaptor">Error, no bluetooth host adaptor found!</string>
+    <string name="msg_sending_packet_fail">Error, sending packet failed!</string>
+</resources>

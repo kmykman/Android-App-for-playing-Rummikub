@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".ControlActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BTdevice">
+
+        <Button
+            android:id="@+id/upButton"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="@dimen/button_height"
+            android:text="@string/up"
+            android:textColor="@color/button_text_color"
+            android:background="@drawable/rounded_button_control"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/rightButton"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="@dimen/button_height"
+            android:text="@string/right"
+            android:textColor="@color/button_text_color"
+            android:background="@drawable/rounded_button_control"
+            app:layout_constraintBaseline_toBaselineOf="@+id/homeButton"
+            app:layout_constraintStart_toEndOf="@+id/homeButton" />
+
+        <Button
+            android:id="@+id/homeButton"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="@dimen/button_height"
+            android:text="@string/home"
+            android:textColor="@color/button_text_color"
+            android:background="@drawable/rounded_button_control"
+            app:layout_constraintEnd_toEndOf="@+id/upButton"
+            app:layout_constraintStart_toStartOf="@+id/upButton"
+            app:layout_constraintTop_toBottomOf="@+id/upButton" />
+
+        <Button
+            android:id="@+id/leftButton"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="@dimen/button_height"
+            android:text="@string/left"
+            android:textColor="@color/button_text_color"
+            android:background="@drawable/rounded_button_control"
+            app:layout_constraintBaseline_toBaselineOf="@+id/homeButton"
+            app:layout_constraintEnd_toStartOf="@+id/homeButton" />
+
+        <Button
+            android:id="@+id/downButton"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="@dimen/button_height"
+            android:text="@string/down"
+            android:textColor="@color/button_text_color"
+            android:background="@drawable/rounded_button_control"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/homeButton"
+            app:layout_constraintStart_toStartOf="@+id/homeButton"
+            app:layout_constraintTop_toBottomOf="@+id/homeButton" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/gripperCloseButton"
+        android:layout_width="@dimen/lower_button_width"
+        android:layout_height="@dimen/lower_button_height"
+        android:text="@string/gripper_off"
+        android:textColor="@color/button_text_color"
+        android:background="@drawable/rounded_button_control"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/gripperOpenButton"
+        app:layout_constraintEnd_toEndOf="@+id/backButton" />
+
+    <Button
+        android:id="@+id/gripperOpenButton"
+        android:layout_width="@dimen/lower_button_width"
+        android:layout_height="@dimen/lower_button_height"
+        android:layout_marginTop="45dp"
+        android:text="@string/gripper_on"
+        android:textColor="@color/button_text_color"
+        android:background="@drawable/rounded_button_control"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/gripperCloseButton"
+        app:layout_constraintStart_toStartOf="@+id/frontButton"
+        app:layout_constraintTop_toBottomOf="@+id/frontButton" />
+
+    <Button
+        android:id="@+id/rotateCCWButton"
+        android:layout_width="@dimen/lower_button_width"
+        android:layout_height="@dimen/lower_button_height"
+        android:text="@string/rotateCCW"
+        android:textColor="@color/button_text_color"
+        android:background="@drawable/rounded_button_control"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/rotateCWButton"
+        app:layout_constraintEnd_toEndOf="@+id/gripperCloseButton" />
+
+    <Button
+        android:id="@+id/rotateCWButton"
+        android:layout_width="@dimen/lower_button_width"
+        android:layout_height="@dimen/lower_button_height"
+        android:layout_marginTop="45dp"
+        android:text="@string/rotateCW"
+        android:textColor="@color/button_text_color"
+        android:background="@drawable/rounded_button_control"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@+id/gripperOpenButton"
+        app:layout_constraintTop_toBottomOf="@+id/gripperOpenButton" />
+
+    <Button
+        android:id="@+id/getCardButton"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:text="@string/getCard"
+        android:textColor="@color/button_text_color"
+        android:background="@drawable/rounded_button_control"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rotateCCWButton" />
+
+    <Button
+        android:id="@+id/frontButton"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:text="@string/front"
+        android:textColor="@color/button_text_color"
+        android:background="@drawable/rounded_button_control"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/backButton"
+        app:layout_constraintStart_toStartOf="@+id/constraintLayout" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginTop="45dp"
+        android:text="@string/back"
+        android:textColor="@color/button_text_color"
+        android:background="@drawable/rounded_button_control"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/constraintLayout"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout" />
+
+    <ImageView
+        android:id="@+id/bt"
+        android:layout_width="57dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="20dp"
+        android:clickable="true"
+        android:contentDescription="NULL"
+        android:focusable="true"
+        android:onClick="runbt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.923"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bluetooth" />
+
+    <TextView
+        android:id="@+id/BTdevice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="16dp"
+        android:text="Not connected"
+        android:textColor="#FA0000"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/home_page"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="goHomePage"
+        app:layout_constraintBottom_toBottomOf="@+id/bt"
+        app:layout_constraintEnd_toStartOf="@+id/bt"
+        app:layout_constraintHorizontal_bias="0.086"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="?attr/homeAsUpIndicator" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

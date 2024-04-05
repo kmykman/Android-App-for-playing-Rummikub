@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Rummikub</string>
+
+    <string name="up">Up</string>
+    <string name="right">Right</string>
+    <string name="home">Home</string>
+    <string name="left">Left</string>
+    <string name="down">Down</string>
+    <string name="front">Front</string>
+    <string name="back">Back</string>
+    <string name="gripper_on">Gripper On</string>
+    <string name="gripper_off">Gripper Off</string>
+    <string name="rotateCW">Rotate Clockwise</string>
+    <string name="rotateCCW">Rotate Counter-Clockwise</string>
+    <string name="getCard">Get Card</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
