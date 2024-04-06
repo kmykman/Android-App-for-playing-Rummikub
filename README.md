@@ -9,7 +9,7 @@ Man Yuet Ki Kimmy
 ## Installation
 1. Download this Android app code
 2. Run the code on an Android phone following this [tutorial](https://developer.android.com/codelabs/basic-android-kotlin-compose-connect-device#0)
-3. Download [Arduino board code](https://github.com/kmykman/Robotic-Arm-Arduino)
+3. Download [Arduino board code](https://github.com/kmykman/Arduino-for-Robotic-Arm)
 4. Upload the Arduino board code to the robotic arm
 
 ## Demonstration
