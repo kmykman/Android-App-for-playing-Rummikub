@@ -21,4 +21,4 @@ Man Yuet Ki Kimmy
 <img width="500" alt="image" src="https://github.com/kmykman/Rummikub_back/assets/78306170/48f5431b-00f7-4a17-baf7-aac0c1cba62e">
 
 ### Game Page
-<img width="600" alt="image" src="https://github.com/kmykman/Rummikub_back/assets/78306170/d9266360-8588-4b0b-828e-214ae9d97e35">
+<img width="600" alt="image" src="https://github.com/kmykman/Android-App-for-playing-Rummikub/assets/78306170/c8f74523-8405-4c7e-bac7-81a2114e3f40">
