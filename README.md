@@ -17,7 +17,7 @@ Man Yuet Ki Kimmy
 
 ## User Flow Diagram
 ### Control Page
-<img width="500" alt="image" src="https://github.com/kmykman/Rummikub_back/assets/78306170/48f5431b-00f7-4a17-baf7-aac0c1cba62e">
+<img width="500" alt="image" src="https://github.com/kmykman/Android-App-for-playing-Rummikub/assets/78306170/e76e7362-9faf-45c4-886c-94512e1dc38b">
 
 ### Game Page
 <img width="600" alt="image" src="https://github.com/kmykman/Android-App-for-playing-Rummikub/assets/78306170/c8f74523-8405-4c7e-bac7-81a2114e3f40">
